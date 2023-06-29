@@ -1,0 +1,12 @@
+/* <regra_ou_seletor> {
+    propriedade1: valor;
+    propriedade2: valor; */
+
+h2 {
+    color: green;
+}
+
+img {
+    width: 300px;
+    border-radius: 16px;
+}
