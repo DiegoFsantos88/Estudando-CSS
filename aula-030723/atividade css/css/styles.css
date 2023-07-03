@@ -1,0 +1,60 @@
+* { 
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+    background-color: blue;
+    font-size: 100px;
+    color: yellow;
+}
+
+.h2 {   
+    text-align: center;
+    font-style: italic;
+    font-family: Sans-serif;    
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/492611032/pt/foto/o-king.webp?b=1&s=170667a&w=0&k=20&c=HS4NLqubr4x4JPw6Ckgw1pskEiYVk9XOzg2ysZYV3_8="); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p {
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.li {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.button1 {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.button2 {
+    border-color: rgb(13, 138, 51);
+    background-color: yellow;
+    color: blue;
+    padding: 50px;
+    margin: 50px;    
+}
+
+.button3 {
+    background-color: purple;
+    color: white;
+    
+}
+
+a:hover {
+    background-color: black;
+  }
