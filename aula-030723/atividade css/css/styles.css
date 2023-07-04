@@ -1,5 +1,7 @@
 * { 
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .h1 {
@@ -12,19 +14,26 @@
 .h2 {   
     text-align: center;
     font-style: italic;
-    font-family: Sans-serif;    
-}
+    font-family: Sans-serif;  
+    }
 
 body {
+    
     background-image: url("https://media.istockphoto.com/id/492611032/pt/foto/o-king.webp?b=1&s=170667a&w=0&k=20&c=HS4NLqubr4x4JPw6Ckgw1pskEiYVk9XOzg2ysZYV3_8="); 
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;    
+    background-size: contain; 
 }
 
 .p {
     text-align: justify;
     font-size: 20px;
+}
 
+.ul {
+    background-color: rgb(9, 116, 204);
+    text-align: center;
 }
 
 .li {
@@ -33,12 +42,19 @@ body {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    background-color: red;
+}
+
+a:hover {
+    background-color: black;
 }
 
 .button1 {
     background-color: red;
     color: white;
     padding: 20px;
+    border: none;
+    display: block;
 }
 
 .button2 {
@@ -46,15 +62,28 @@ body {
     background-color: yellow;
     color: blue;
     padding: 50px;
-    margin: 50px;    
+    margin: 50px; 
+    border: none;  
+    border-radius: 8px; 
+    display: block;
 }
 
 .button3 {
     background-color: purple;
+    color: white; 
+    border: none; 
+    display: block;  
+}
+.button1:hover {
+    background-color: rgb(39, 9, 214);
+}
+.button2:hover {
+    background-color: rgb(39, 9, 214);
     color: white;
-    
 }
 
-a:hover {
-    background-color: black;
-  }
+.button3:hover {
+    background-color: rgb(39, 9, 214);
+}
+
+
