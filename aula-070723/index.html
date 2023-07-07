@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <h1 class="text-center text-success">Hello, world!</h1>
+        <!-- botoes -->
+        <button type="button" class="btn btn-primary">Clique aqui</button>
+        <button type="button" class="btn btn-danger btn-lg">Danger</button>
+        <!--  -->
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+        <!-- carrosel -->
+        <div id="carouselExample" class="carousel slide m-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="https://media.istockphoto.com/id/695555186/pt/foto/black-and-white-high-contrast-animal-portrait-of-a-pensive-gorilla-face-isolated-in-shadows.webp?b=1&s=170667a&w=0&k=20&c=R3OdXJMmSISbrv6JXWrl7seuHtmx79XiK-7XgUv6F7k="
+                        class="d-block w-100"
+                        alt="..." 
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1688398658165-9f404b8617d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100"
+                        alt="..." 
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1688362378022-766308fe48c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Loja</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Roupas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Celulares</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
